@@ -1,0 +1,22 @@
+{
+  "dataset_name": "top_100_VCs_BFS_20000_LCC",
+  "experiment_name": "Testing HAN lr=5e-3",
+  "market":"Software Companies",
+  "num_epochs": 200,
+  "model": "han",
+  "val_metric": "f1",
+  "market_source": "diffbot",
+  "patience": 25,
+  "lr": 0.005,
+  "repeat": 5,
+  "num_layers": 2,
+  "metapaths": [[
+    [["Aggr_Organization", "investor_of_reverse", "Person"], ["Person", "investor_of", "Aggr_Organization"]],
+        [["Aggr_Organization", "investor_of", "Aggr_Organization"],
+         ["Aggr_Organization", "investor_of_reverse", "Aggr_Organization"]],
+        [["Aggr_Organization", "investor_of", "Aggr_Organization"]],
+    [["Aggr_Organization", "investor_of_reverse", "Aggr_Organization"]],
+        [["Aggr_Organization", "board_member_of_reverse", "Person"], ["Person", "board_member_of", "Aggr_Organization"]]
+    ]],
+  "natts_path": "demo/example_node_attribute_config.json"
+}

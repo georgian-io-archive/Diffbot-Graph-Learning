@@ -1,0 +1,5 @@
+api_key: "YOUR_API_KEY"
+output_folder: "./temp/test_entities_starting_sequoia"
+num_nodes: 50
+starting_node_uris:
+  - "C4PQqufphPOam9WR7_U0DRQ"

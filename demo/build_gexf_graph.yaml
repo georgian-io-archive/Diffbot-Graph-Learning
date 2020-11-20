@@ -1,0 +1,4 @@
+saved_entities_folder:
+  - "./temp/test_entities_starting_sequoia/entities"
+uri_info_map: "./temp/test_entities_starting_sequoia/final/uri_info_map.json"
+node_filter: "saved_entities_or_subregion"

@@ -1,0 +1,14 @@
+{
+  "dataset_name": "top_100_VCs_BFS_20000_LCC",
+  "experiment_name": "Testing HRGCN lr=5e-3",
+  "market":"Software Companies",
+  "num_epochs": 200,
+  "model": "hrgcn",
+  "val_metric": "f1",
+  "market_source": "diffbot",
+  "patience": 25,
+  "lr": 0.005,
+  "repeat": 5,
+  "num_layers": 2,
+  "natts_path": "demo/example_node_attribute_config.json"
+}

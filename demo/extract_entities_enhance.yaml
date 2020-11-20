@@ -1,0 +1,4 @@
+api_key: "YOUR_API_KEY"
+output_folder: "./temp/test_enhance"
+org_info_csv_path: "./demo/orgs_info.csv"
+people_info_csv_path: "./demo/people_info.csv"

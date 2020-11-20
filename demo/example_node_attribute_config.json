@@ -1,0 +1,14 @@
+{
+	"Aggr_Organization": [
+		["ohe", "node_type"],
+		["ohe", "is_public"],
+		["ohe", "label"],
+		["numerical_box_cox", "importance"],
+		["numerical_yeo_johnson", "nb_active_employee_edges"]
+	],
+	"Person": [
+		["ohe", "label"],
+		["numerical_yeo_johnson", "age"],
+		["numerical_box_cox", "importance"]
+	]
+}
